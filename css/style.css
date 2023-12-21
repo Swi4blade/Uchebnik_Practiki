@@ -1,0 +1,341 @@
+/* Задание 4 */
+/* table {
+    border-collapse: collapse;
+}
+  
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+  
+td.clicked {
+    background-color: red;
+}
+
+td.true {
+    background-color: green;
+} */
+
+
+/* Задание 6 */
+/* #n6 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#n6 span {
+    user-select: none;
+    cursor: pointer;
+}
+
+#n6 ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5px;
+}
+
+#n6 ul li {
+    padding: 10px;
+    background: #dedede;
+}
+
+#n6 ul .current-day {
+    background: lightblue !important;
+} */
+
+
+/* Задание 7 */
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#tagInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#tagDescription {
+    margin-top: 20px;
+    font-size: 18px;
+}  */
+
+
+/* Задание 8 */
+/* * {
+	box-sizing: border-box;
+}
+
+#parent {
+	margin: 0 auto;
+	width: 600px;
+}
+
+#input {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#table {
+	width: 100%;
+}
+
+#table td {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+}  */
+
+
+/* Задание 9 */
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+  
+h1 {
+    color: #4c68af;
+}
+  
+input[type="date"] {
+    padding: 8px;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: #4c68af;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #6d80b0;
+}
+  
+input[type="radio"] {
+    margin: 0 5px;
+} */
+
+
+/* Задание 10 */
+/* #parent {
+    text-align: center;
+}
+
+#parent > * {
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    font-size: 17px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.good-prediction {
+    color: green;
+}
+
+.bad-prediction {
+    color: red;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:not(.active) {
+    display: none;
+} */
+
+
+/* Задание 15-17 */
+/* input {
+    width: 220px;
+} */
+
+
+/* Задание 18-23 */
+/* body {
+	text-align: center;
+}
+
+#input, #list {
+    display: inline-block;
+}
+
+#list {
+    padding: 0;
+    list-style-type: none;
+}
+
+#list span {
+    margin-right: 5px;
+}
+
+#list .remove, #list .mark {
+    color: blue;
+    cursor: pointer;
+}
+
+#list .remove:hover, #list .mark:hover {
+    text-decoration: underline;
+}
+
+#list .done .task {
+    text-decoration: line-through;
+} */
+
+
+/* Задание 24-29 */
+/* * {
+	box-sizing: border-box;
+}
+
+#parent {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#form {
+    display: flex;
+    margin-bottom: 15px;
+}
+#form input {
+    padding: 8px;
+    width: 24%;
+    margin: 0 0.5% 10px 0.5%;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+#table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#table td, #table th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+#table td.remove {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#table td.remove:hover {
+    text-decoration: none;
+}
+
+#result {
+    text-align: right;
+    margin-right: 10px;
+} */
+
+
+/* Задание 30-36 */
+/* .right {
+    border: 1px solid green;
+}
+
+.wrong {
+    border: 1px solid red;
+}
+
+button {
+    margin-top: 20px;
+} */
+
+
+/* Задание 41-46  */
+/* #field td {
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+      text-align: center;
+      font-weight: bold;
+} */
+
+
+/* Задание 47-51 */
+/* #field td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+#moves {
+    font-size: 18px;
+    margin-bottom: 10px;
+} */
+
+
+/* Задание 52-62 */
+#parent {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#calendar {
+    display: inline-block;
+}
+
+#calendar td, #calendar th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#calendar .nav, #calendar .info {
+    text-align: center;
+}
+
+#calendar a {
+    color: blue;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#calendar a:hover {
+    color: red;
+}
+
+#calendar .active {
+    color: red;
+}
